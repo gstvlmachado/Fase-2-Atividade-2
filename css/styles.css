@@ -1,3 +1,25 @@
-*{
-    
+:root{
+    --color-yellow: #FFD700;
+    --color-darkyellow: #FFF4BD;
+    --color-gold: #FFBF00;
+    --color-offwhite: #FFFAFA;
+    --color-pepper: #E32227;
+    --color-burgundy: #BA0F30;
+    --color-spearmint: #887BB0;
+    --font-title: 'Diphylleia', serif;
+    --font-bodyA: 'Montserrat Alternates', sans-serif;
+    --font-bodyB: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-bodyA);
+    background-color: var(--color-offwhite);
 }
